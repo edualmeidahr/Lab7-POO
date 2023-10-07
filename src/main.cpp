@@ -9,7 +9,7 @@ int main()
     
 
     while(true){
-    cout<<"Escolha uma das opções:\n";
+    cout<<"\nEscolha uma das opções:\n"<<endl;
     cout<<"0)Encerrar o programa:"<<endl;
     cout<<"1)Cadastrar um Professor"<<endl;
     cout<<"2)Cadastrar um Aluno"<<endl;

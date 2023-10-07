@@ -81,7 +81,7 @@ void Curso::imprimirListaDeAlunos(){
         cout<<"Nome:" + aluno.getNome() << endl;
         cout<<"Endereço:" + aluno.getEndereco() << endl;
         cout<<"Matricula:" + aluno.getMatricula()<<endl;
-        cout<<"---------------------------------------------";
+        cout<<"---------------------------------------------"<<endl;
     }
     }
 }
@@ -94,6 +94,7 @@ void Curso::imprimirListaDeDisciplinas(){
         cout<<"Nome da disciplina:" + disciplina.getNome()<<endl;
         cout<<"CH da disciplina:"+ disciplina.getCH()<<endl;
         cout<<"Professor da disciplina: "+ disciplina.getProfessor().getNome() <<endl;
+        cout<<"---------------------------------------------"<<endl;
     }
     }
 }
